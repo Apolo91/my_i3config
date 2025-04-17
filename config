@@ -35,12 +35,8 @@ exec --no-startup-id --xss-lock --transfer-sleep-lock /home/andrey/.config/i3/i3
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 exec --no-startup-id compton -f --vsync drm
-#exec --no-startup-id /opt/cisco/secureclient/bin/vpnui
-#AudioControlPanel 
-#exec --no-startup-id pavucontrol 
 
 #walpaper
-#exec_always --no-startup-id feh --bg-scale /home/andrey/.local/share/wallpapers/781769-free-download-debian-wallpapers-1920x1080.jpg
 exec nitrogen --restore
 
 # Use pactl to adjust volume in PulseAudio.
